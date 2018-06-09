@@ -17,7 +17,7 @@ test:
 deploy:
   stage: deploy
   script:
-    - mvn deploy
+    - mvn package
   artifacts:
     name: assignment2-1.jar
     expire_in: 31d
